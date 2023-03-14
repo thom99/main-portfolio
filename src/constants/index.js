@@ -1,5 +1,5 @@
 import {
-  mobile,
+  reactNative,
   web,
   javascript,
   typescript,
@@ -13,14 +13,16 @@ import {
   figma,
   nextjs,
   docker,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   aesys,
   illimity,
   be,
   metisoft,
+  spotify,
+  threeJs,
+  twitch,
+  quiz,
+  todolist
 } from "../assets";
 
 export const navLinks = [
@@ -45,7 +47,7 @@ const services = [
   },
   {
     title: "React Native Developer",
-    icon: mobile,
+    icon: reactNative,
   },
 ];
 
@@ -188,67 +190,109 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Spotify Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "In this project I recreated the Spotify login and main dashboard using their API.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "axios",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: spotify,
+    source_code_link: "https://github.com/thom99/Spotify-clone",
   },
   {
-    name: "Job IT",
+    name: "Universe threeJS",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "In this project I recreated a small part of the universe with the 3D library Three.js.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "react-three/fiber",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "three.js",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: threeJs,
+    source_code_link: "https://github.com/thom99/UniverseThreeJs",
   },
   {
-    name: "Trip Guide",
+    name: "Twitch clone",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "In this project I recreated the Twitch login and home page using their API.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "axios",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "yup-validation",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: twitch,
+    source_code_link: "https://github.com/thom99/Twitch-clone",
+  },
+  {
+    name: "Quiz app",
+    description:
+      "In this project I created a quiz app using Trivia API.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "axios",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: quiz,
+    source_code_link: "https://github.com/thom99/React-Typescript-QuizGame",
+  },
+  {
+    name: "Todo list app",
+    description:
+      "In this project I created a todo list app using Redux.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: todolist,
+    source_code_link: "https://github.com/thom99/Todolist-React-Redux",
   },
 ];
 
