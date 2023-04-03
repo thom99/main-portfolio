@@ -8,6 +8,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
+  
   const ref = useRef(null);
   return (
     <Tilt className="xs:w-[250px] w-full" ref={ref}>
