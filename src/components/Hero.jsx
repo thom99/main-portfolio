@@ -1,7 +1,9 @@
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { foto } from "../assets";
+
 const Hero = () => {
   return (
     <section className="relative w-full h-[80vh] mx-auto">
@@ -24,9 +26,9 @@ const Hero = () => {
           </p>
         </div>
       </div>
-    
-      <div className="absolute xs:top-80 md:top-96 flex justify-center items-center w-full">
-        <div className="flex justify-center items-center h-[40vh]">
+
+      <div className="absolute xs:top-80 md:top-96 flex flex-col h-full items-center md:items-stretch justify-end md:justify-center md:flex-row w-full">
+        <div className="flex justify-center items-center h-[30vh] md:h-[40vh] ">
           <img
             src={foto}
             alt="foto"
@@ -36,7 +38,7 @@ const Hero = () => {
       </div>
 
       {/* <ComputersCanvas /> */}
-      
+
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-[#4544a5] flex justify-center items-start p-2">
