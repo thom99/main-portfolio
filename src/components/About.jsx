@@ -8,7 +8,6 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
-  
   const ref = useRef(null);
   return (
     <Tilt className="xs:w-[250px] w-full" ref={ref}>
@@ -45,14 +44,23 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        My name is Thomas and I like to develop things on the Internet. When I
+        {/* My name is Thomas and I like to develop things on the Internet. When I
         chose to create my first web page, "Hello World," in 2016, I became
         interested in web development. It was at that point that a passion was
         born. Moving forward I started learning and practicing web programming
         using online courses from sites like Udemy, Zenva, Pluralsight and
         various YouTube videos. I have the pleasure of working in a software
         company called Aesys Tech, where I have been involved in several
-        projects such as a banking management system.
+        projects such as a banking management system. */}
+        My name is Thomas and I like to develop things on the Internet. I'm a
+        Front End Developer with knowledge of JavaScript technologies and mobile
+        development with React Native. Have experience with
+        JavaScript/TypeScript and React. 🧑‍💻Using: HTML5, CSS3, Javascript,
+        Typescript, React, React Native, Expo, Bootstrap, FluentUI, SASS, Redux,
+        ChartJS, NodeJS, API, WebPack, Git, VSCode, Postman, Figma, Jira,
+        Jenkins, BitBucket, Jest, Mirage, OpenAPI🧑‍💻 Worked in a team
+        environments, meeting standards and deadlines. I like to keep up with
+        new technologies but also to polish my knowledge.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10 xs:justify-center md:justify-start ">
         {services.map((service, index) => (

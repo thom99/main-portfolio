@@ -36,7 +36,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Thomas",
           from_email: form.email,
-          to_email: "thomas99d@outlook.it",
+          to_email: "thomas@damialfredo.com",
           message: form.message,
         },
         "_RdcZx4zLQ7VDajYD"
@@ -44,7 +44,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to yoi as soon as possible");
+          alert("Thank you. I will get back to you as soon as possible");
           setForm({
             name: "",
             email: "",

@@ -15,6 +15,7 @@ import {
   docker,
   threejs,
   aesys,
+  peoplelab,
   illimity,
   be,
   metisoft,
@@ -108,83 +109,77 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Developer Consultant",
+    title: "Front-End Engineer Consultant",
+    company_name: "People Lab Srl",
+    icon: peoplelab,
+    iconBg: "#383E56",
+    date: "June 2023 - present",
+    projects: [
+      {
+        title: "React Developer @ IrisCube Reply",
+        icon: illimity,
+        iconBg: "#383E56",
+        date: "June 2023 - present",
+        project: "Project: UniCredit Customer Experience",
+        points: [
+          "Acquiring Solutions: Development of web pages for sales and after-sales products: inApp POS, Pay by Link and Recurring Payments.",
+          "Advisor & Capital Market: development of a prototype web portal as a service for corporate trading, including a global/national market section, insights section with charts and recent transactions section.",
+          "Card Issuing: Development and maintenance in production of the sales and after-sales flow of cards."
+        ],
+      },
+    ],
+  },
+  {
+    title: "Front-End Engineer Consultant",
     company_name: "Aesys Tech",
     icon: aesys,
     iconBg: "#383E56",
-    date: "June 2021 - Present",
-    project: "Projects: Illimity Bank, Be Shaping the Future, Internal Sharepoint Framework React Project",
-    points: [
-      "Documentation and application of Front End technologies.",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Mobile Development - React Native (Android Studio).",
-      "Follow-up projects.",
+    date: "June 2021 - June 2023",
+    projects: [
+      {
+        title: "React Developer @ Illimity Bank",
+        icon: illimity,
+        iconBg: "#383E56",
+        date: "September 2021 - June 2022",
+        project: "Project: COMS | Credit Origination & Management System",
+        points: [
+          "Development and implementation of new functionalities such as, for example, the creation of a newc dashboard for invoice management, which was previously carried out externally, thus improving the speed of invoicing.",
+          "Implementation through plug-ins of Google's Blockly library to improve the user experience.",
+          "Creation of new permissions to improve data security within."
+        ],
+      },
+      {
+        title: "React Developer @ Be Shaping the Future",
+        icon: be,
+        iconBg: "#383E56",
+        date: "June 2022 - October 2022",
+        project: "Project: New Design System COMS | Credit Origination & Management System",
+        points: [
+          "Refactor of the code using the components of the New System Design for more maintainability and customisation of the code.",
+          "Research and bug fixing.",
+          "Study and practice with Next.js and Express.js."
+        ]
+      },
+      {
+        title: "React Developer @ Metisoft",
+        company_name: "",
+        icon: metisoft,
+        iconBg: "#383E56",
+        date: "November 2022 - March 2023",
+        project: "Project: React Webpart Sharepoint Framework (SPFX) ",
+        points: [
+          "Webpart SharePoint (SPFX): De-linking by the client of Google Workspaces sheets to a System developed on SharePoint Online by creating a webpart in React for the management of appraisals by the company based on the employee's performance throughout the year, improving the user experience of users and the administration of permissions by the owners of the processes."
+        ],
+      },
+      {
+        title: "React Developer @ Aesys Internal Project",
+        date: " February 2023 - June 2023",
+        project: "WikiAesys",
+        points: [
+          "WikiAesys is an online encyclopaedia like Wikipedia, where users are divided according to their roles and can create articles related to the IT sector. It is possible to comment on articles and like them. There is an internal administration panel for moderators, who will have the task of approving contributors' articles. The project is developed in JavaScript as a programming language and React as a library for the creation of the user interface. The MaterialUI library was used extensively to create the graphical components. The Axios library was used to make the API calls. "
+        ]
+      }
     ],
-  },
-  {
-    title: "React Developer",
-    company_name: "Illimity Bank",
-    icon: illimity,
-    iconBg: "#383E56",
-    date: "September 2021 - June 2022",
-    project: "Project: COMS | Credit Origination & Management System",
-    points: [
-      "Developing and maintaining web application using React.js and TypeScript.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Development of new customer management dashboards.",
-      "Bug fixes.",
-    ],
-  },
-  {
-    title: "React Developer",
-    company_name: "Be Shaping the Future",
-    icon: be,
-    iconBg: "#383E56",
-    date: "June 2022 - October 2022",
-    project: "Project: New Design System COMS | Credit Origination & Management System",
-    points: [
-      "Development and implementation of new Design System components.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Bug search and resolution.",
-      "Study and exercises with Next.js and Nest.js.",
-    ],
-  },
-  {
-    title: "React Developer",
-    company_name: "Metisoft",
-    icon: metisoft,
-    iconBg: "#383E56",
-    date: "November 2022 - March 2023",
-    project: "Project: React Webpart Sharepoint Framework (SPFX) ",
-    points: [
-      "Worked closely with the Microsoft business unit of my company (Aesys tech) to take care of the development part in React",
-      "Development and implementation of a Sharepoint webpart.",
-      "Research and bug fixing.",
-    ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial: "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
@@ -296,4 +291,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

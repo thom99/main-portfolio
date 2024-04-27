@@ -25,6 +25,7 @@ import aesys from "./company/aesys.jpg";
 import illimity from "./company/illimity.png";
 import be from "./company/be.jpg";
 import metisoft from "./company/metisoft.png";
+import peoplelab from "./company/peoplelab.png"
 
 import spotify from "./spotify.png";
 import twitch from "./twitch.png";
@@ -60,6 +61,7 @@ export {
   illimity,
   be,
   metisoft,
+  peoplelab,
   spotify,
   twitch,
   threeJs,
