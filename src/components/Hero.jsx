@@ -21,7 +21,8 @@ const Hero = () => {
             {/* Hi, I'm <span className="text-[#5a8afc]">Thomas</span> */}
             {/* Hi, I'm <span className="text-[#3a5697]">Thomas</span> */}
             {/* Hi, I'm <span className="text-secondary">Thomas</span> */}
-            <span className="text-secondary">Hi, I'm</span> Thomas.
+            <span className="text-secondary">Hi, I'm</span>{" "}
+            <span>Thomas💡.</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white`}>
             I develop user interfaces <br className="sm:block hidden" /> and web
