@@ -29,6 +29,7 @@ const Navbar = () => {
             <span className="sm:block hidden">| Web Developer</span> */}
             .thomasdev.
           </p>
+          👽
         </Link>
         {/* <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
