@@ -124,7 +124,8 @@ const experiences = [
         points: [
           "Acquiring Solutions: Development of web pages for sales and after-sales products: inApp POS, Pay by Link and Recurring Payments.",
           "Advisor & Capital Market: development of a prototype web portal as a service for corporate trading, including a global/national market section, insights section with charts and recent transactions section.",
-          "Card Issuing: Development and maintenance in production of the sales and after-sales flow of cards."
+          "Card Issuing: Development and maintenance in production of the sales and after-sales flow of cards.",
+          "Bank Insurance: development and maintenance of Bank insurance product like GCare, TCM, ITP and MCF."
         ],
       },
     ],
