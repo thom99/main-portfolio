@@ -33,7 +33,7 @@ import threeJs from "./threeJs.png";
 import quiz from "./quiz.png"
 import todolist from "./todolist.png";
 
-import foto from "./foto.png"
+import foto from "./FotoThomas.jpeg"
 
 export {
   logo,
